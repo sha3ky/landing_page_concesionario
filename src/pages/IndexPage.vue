@@ -10,8 +10,8 @@
               <span class="highlight">Profesional</span>
             </h1>
             <p class="hero-subtitle">
-              Deja de competir en Wallapop y Autoscout. Ten tu propia plataforma premium donde tú
-              eres el protagonista.
+              Deja de competir en Wallapop y Autoscout. Ten tu propia plataforma
+              premium donde tú eres el protagonista.
             </p>
 
             <div class="text-center q-mt-xl">
@@ -139,7 +139,9 @@
     <!-- Problem vs Solution -->
     <section class="problem-solution-section">
       <div class="container">
-        <h2 class="section-title">¿Cansado de Perder Tiempo y Dinero en Wallapop?</h2>
+        <h2 class="section-title">
+          ¿Cansado de Perder Tiempo y Dinero en Wallapop?
+        </h2>
         <div class="row q-col-gutter-xl">
           <div class="col-12 col-md-6">
             <div class="problem-card">
@@ -147,34 +149,53 @@
                 <q-icon name="schedule" class="problem-icon" />
                 <h3>Problema Real: Marketplaces Genéricos</h3>
               </div>
-              <ul class="feature-list">
-                <li>
-                  <q-icon name="close" /> <strong>10+ horas/semana&nbsp;</strong> perdidas en
-                  mensajes sin sentido
+              <ul class="feature-list q-pa-none q-gutter-y-md">
+                <li class="q-py-sm">
+                  <q-icon name="close" />
+                  <span class="text-subtitle1"
+                    ><strong>10+ horas/semana&nbsp;</strong> perdidas en
+                    mensajes sin sentido</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="close" /> <strong>95% de contactos no cualificados&nbsp;</strong> -
-                  solo "mirones"
+                <li class="q-py-sm">
+                  <q-icon name="close" />
+                  <span class="text-subtitle1"
+                    ><strong>95% de contactos no cualificados&nbsp;</strong> -
+                    solo "mirones"</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="close" /> <strong>€200-800/mes en anuncios&nbsp;</strong> para ser
-                  visible
+                <li class="q-py-sm">
+                  <q-icon name="close" />
+                  <span class="text-subtitle1"
+                    ><strong>€200-800/mes en anuncios&nbsp;</strong> para ser
+                    visible</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="close" /> <strong>Cero construcción de marca&nbsp;</strong> - eres
-                  un anuncio más
+                <li class="q-py-sm">
+                  <q-icon name="close" />
+                  <span class="text-subtitle1"
+                    ><strong>Cero construcción de marca&nbsp;</strong> - eres un
+                    anuncio más</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="close" /> <strong>Carrera hacia el precio más bajo</strong>, no
-                  hacia la calidad
+                <li class="q-py-sm">
+                  <q-icon name="close" />
+                  <span class="text-subtitle1"
+                    ><strong>Carrera hacia el precio más bajo</strong>, no hacia
+                    la calidad</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="close" /> <strong>Imposible fidelizar&nbsp;</strong> clientes
-                  satisfechos
+                <li class="q-py-sm">
+                  <q-icon name="close" />
+                  <span class="text-subtitle1"
+                    ><strong>Imposible fidelizar&nbsp;</strong> clientes
+                    satisfechos</span
+                  >
                 </li>
               </ul>
               <div class="problem-footer">
-                <q-icon name="warning" /> <strong>Coste real oculto: €1,500-3,000/mes</strong>
+                <q-icon name="warning" />
+                <strong>Coste real oculto: €1,500-3,000/mes</strong>
               </div>
             </div>
           </div>
@@ -184,65 +205,105 @@
                 <q-icon name="rocket_launch" class="solution-icon" />
                 <h3>Solución: Tu Plataforma Profesional</h3>
               </div>
-              <ul class="feature-list">
-                <li>
-                  <q-icon name="check" /> <strong>Clientes cualificados&nbsp;</strong> que buscan
-                  profesionalidad
+              <ul class="feature-list q-pa-none q-gutter-y-md">
+                <li class="q-py-sm">
+                  <q-icon name="check" />
+                  <span class="text-subtitle1"
+                    ><strong>Clientes cualificados&nbsp;</strong> que buscan
+                    profesionalidad</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="check" /> <strong>+80% menos tiempo&nbsp;</strong>gestionando
-                  consultas
+                <li class="q-py-sm">
+                  <q-icon name="check" />
+                  <span class="text-subtitle1"
+                    ><strong>+80% menos tiempo&nbsp;</strong>gestionando
+                    consultas</span
+                  >
                 </li>
-                <li>
-                  <q-icon name="check" /> <strong>Construyes tu marca&nbsp; </strong> y reputación
+                <li class="q-py-sm">
+                  <q-icon name="check" />
+                  <span class="text-subtitle1"
+                    ><strong>Construyes tu marca&nbsp; </strong> y
+                    reputación</span
+                  >
                 </li>
-                <li><q-icon name="check" /> <strong>Cero comisiones&nbsp;</strong> por venta</li>
-                <li><q-icon name="check" /> <strong>Vendes valor, no precio</strong></li>
-                <li>
-                  <q-icon name="check" /> <strong>Clientes recurrentes&nbsp;</strong> que confían en
-                  ti
+                <li class="q-py-sm">
+                  <q-icon name="check" />
+                  <span class="text-subtitle1"
+                    ><strong>Cero comisiones&nbsp;</strong> por venta</span
+                  >
+                </li>
+                <li class="q-py-sm">
+                  <q-icon name="check" />
+                  <span class="text-subtitle1"
+                    ><strong>Vendes valor, no precio</strong></span
+                  >
+                </li>
+                <li class="q-py-sm">
+                  <q-icon name="check" />
+                  <span class="text-subtitle1"
+                    ><strong>Clientes recurrentes&nbsp;</strong> que confían en
+                    ti</span
+                  >
                 </li>
               </ul>
               <div class="solution-footer">
-                <q-icon name="savings" /> <strong>Inversión clara: €1199 + €99/mes</strong>
+                <q-icon name="savings" />
+                <strong>Inversión clara: €1199 + €99/mes</strong>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Preguntas que duelen -->
         <div class="pain-questions">
           <h3>💡 Reflexiona:</h3>
           <div class="questions-grid">
             <div class="question-item">
               <q-icon name="schedule" />
-              <span>¿Cuánto vale 1 hora de tu tiempo respondiendo "¿Me lo dejas más barato?"</span>
+              <span
+                >¿Cuánto vale 1 hora de tu tiempo respondiendo "¿Me lo dejas más
+                barato?"</span
+              >
             </div>
             <div class="question-item">
               <q-icon name="groups" />
-              <span>¿Qué prefieres: 100 contactos de "mirones" o 5 clientes serios?</span>
+              <span
+                >¿Qué prefieres: 100 contactos de "mirones" o 5 clientes
+                serios?</span
+              >
             </div>
             <div class="question-item">
               <q-icon name="business" />
-              <span>¿Estás construyendo el valor de Wallapop o el de TU negocio?</span>
+              <span
+                >¿Estás construyendo el valor de Wallapop o el de TU
+                negocio?</span
+              >
             </div>
             <div class="question-item">
               <q-icon name="trending_up" />
-              <span>¿Cuántas ventas pierdes por no tener presencia profesional online?</span>
+              <span
+                >¿Cuántas ventas pierdes por no tener presencia profesional
+                online?</span
+              >
             </div>
             <div class="question-item">
               <q-icon name="euro" />
-              <span>¿€200-800/mes en anuncios o desde €99/mes en tu plataforma?</span>
+              <span
+                >¿€200-800/mes en anuncios o desde €99/mes en tu
+                plataforma?</span
+              >
             </div>
             <div class="question-item">
               <q-icon name="psychology" />
-              <span>¿Sigues compitiendo por precio o quieres destacar por calidad y servicio?</span>
+              <span
+                >¿Sigues compitiendo por precio o quieres destacar por calidad y
+                servicio?</span
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- Features -->
     <section class="features-section">
       <div class="container">
@@ -252,7 +313,10 @@
             <div class="feature-card">
               <q-icon name="design_services" class="feature-icon" />
               <h4>Diseño Web Premium</h4>
-              <p>Diseño responsive y profesional que convierte visitantes en clientes</p>
+              <p>
+                Diseño responsive y profesional que convierte visitantes en
+                clientes
+              </p>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4">
