@@ -13,27 +13,20 @@
               Deja de competir en Wallapop y Autoscout. Ten tu propia plataforma premium donde tú
               eres el protagonista.
             </p>
-            <div class="hero-actions">
+
+            <div class="text-center q-mt-xl">
               <q-btn
                 label="Ver Demo en Vivo"
                 color="primary"
-                size="lg"
-                class="cta-button"
-                icon="play_arrow"
-              />
-              <q-btn
-                label="Solicitar Presupuesto"
-                outline
-                color="primary"
-                size="lg"
-                class="cta-button-outline"
+                size="xl"
+                class="cta-button-large"
+                icon="open_in_new"
+                href="https://jtcars.netlify.app/#/home"
+                target="_blank"
               />
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <!--  <div class="hero-image">
-              <q-img src="~assets/hero-car.png" alt="Concesionario Profesional" class="hero-img" />
-            </div> -->
             <q-img
               src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
               alt="Concesionario Profesional"
@@ -45,80 +38,205 @@
       </div>
     </section>
 
+    <!-- Nuevo Pricing Tiers Section -->
+    <!--    <section class="pricing-tiers-section">
+      <div class="container">
+        <h2 class="section-title">Elige Tu Plan Perfecto</h2>
+        <p class="section-subtitle">Plataforma completa adaptada a tu crecimiento</p>
+
+        <div class="row q-col-gutter-xl">
+          <div class="col-12 col-md-4">
+            <div class="pricing-tier-card">
+              <div class="tier-header">
+                <div class="tier-badge entrada">🎪 ENTRADA</div>
+                <h3>Perfecto para Empezar</h3>
+                <div class="price">
+                  <span class="amount">€1,199</span>
+                  <span class="period">+ €99/mes</span>
+                </div>
+              </div>
+              <ul class="tier-features">
+                <li><q-icon name="check" /> Portal web profesional</li>
+                <li><q-icon name="check" /> Panel administración básico</li>
+                <li><q-icon name="check" /> Hasta 25 vehículos</li>
+                <li><q-icon name="check" /> Soporte técnico estándar</li>
+                <li><q-icon name="check" /> Hosting incluido</li>
+                <li><q-icon name="check" /> Actualizaciones de seguridad</li>
+              </ul>
+              <q-btn
+                label="Comenzar Ahora"
+                color="primary"
+                size="lg"
+                class="full-width tier-btn"
+                outline
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="pricing-tier-card premium">
+              <div class="tier-header">
+                <div class="tier-badge premium">🚀 PREMIUM</div>
+                <h3>Más Popular</h3>
+                <div class="price">
+                  <span class="amount">€1,999</span>
+                  <span class="period">+ €149/mes</span>
+                </div>
+              </div>
+              <ul class="tier-features">
+                <li><q-icon name="check" /> Todo en Entrada +</li>
+                <li><q-icon name="check" /> Personalización avanzada</li>
+                <li><q-icon name="check" /> Hasta 100 vehículos</li>
+                <li><q-icon name="check" /> Soporte prioritario</li>
+                <li><q-icon name="check" /> IA para descripciones</li>
+                <li><q-icon name="check" /> Analytics integrado</li>
+                <li><q-icon name="check" /> Backup diario</li>
+              </ul>
+              <q-btn label="Elegir Premium" color="primary" size="lg" class="full-width tier-btn" />
+              <div class="popular-badge">MÁS ELEGIDO</div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="pricing-tier-card">
+              <div class="tier-header">
+                <div class="tier-badge enterprise">🏆 ENTERPRISE</div>
+                <h3>Para Grandes Concesionarios</h3>
+                <div class="price">
+                  <span class="amount">€2,999</span>
+                  <span class="period">+ €199/mes</span>
+                </div>
+              </div>
+              <ul class="tier-features">
+                <li><q-icon name="check" /> Todo en Premium +</li>
+                <li><q-icon name="check" /> Vehículos ilimitados</li>
+                <li><q-icon name="check" /> CRM integrado</li>
+                <li><q-icon name="check" /> Soporte 24/7</li>
+                <li><q-icon name="check" /> Múltiples usuarios admin</li>
+                <li><q-icon name="check" /> API personalizada</li>
+                <li><q-icon name="check" /> Migración de datos</li>
+              </ul>
+              <q-btn
+                label="Contactar Ventas"
+                color="primary"
+                size="lg"
+                class="full-width tier-btn"
+                outline
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-footer">
+          <div class="guarantee-badge">
+            <q-icon name="verified" />
+            <span>30 días de garantía de satisfacción</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
     <!-- Problem vs Solution -->
     <section class="problem-solution-section">
       <div class="container">
-        <h2 class="section-title">¿Cansado de Competir en Marketplaces?</h2>
+        <h2 class="section-title">¿Cansado de Perder Tiempo y Dinero en Wallapop?</h2>
         <div class="row q-col-gutter-xl">
           <div class="col-12 col-md-6">
             <div class="problem-card">
               <div class="card-header problem">
-                <q-icon name="cancel" class="problem-icon" />
-                <h3>Problema: Competir en Wallapop/Autoscout ...</h3>
+                <q-icon name="schedule" class="problem-icon" />
+                <h3>Problema Real: Marketplaces Genéricos</h3>
               </div>
               <ul class="feature-list">
-                <li><q-icon name="close" /> Comisiones por cada venta (3-5%)</li>
-                <li><q-icon name="close" /> Miles de competidores en la misma página</li>
-                <li><q-icon name="close" /> Clientela que solo busca lo más barato</li>
-                <li><q-icon name="close" /> No construyes tu marca personal</li>
-                <li><q-icon name="close" /> Limitado por reglas de la plataforma</li>
+                <li>
+                  <q-icon name="close" /> <strong>10+ horas/semana&nbsp;</strong> perdidas en
+                  mensajes sin sentido
+                </li>
+                <li>
+                  <q-icon name="close" /> <strong>95% de contactos no cualificados&nbsp;</strong> -
+                  solo "mirones"
+                </li>
+                <li>
+                  <q-icon name="close" /> <strong>€200-800/mes en anuncios&nbsp;</strong> para ser
+                  visible
+                </li>
+                <li>
+                  <q-icon name="close" /> <strong>Cero construcción de marca&nbsp;</strong> - eres
+                  un anuncio más
+                </li>
+                <li>
+                  <q-icon name="close" /> <strong>Carrera hacia el precio más bajo</strong>, no
+                  hacia la calidad
+                </li>
+                <li>
+                  <q-icon name="close" /> <strong>Imposible fidelizar&nbsp;</strong> clientes
+                  satisfechos
+                </li>
               </ul>
+              <div class="problem-footer">
+                <q-icon name="warning" /> <strong>Coste real oculto: €1,500-3,000/mes</strong>
+              </div>
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="solution-card">
               <div class="card-header solution">
-                <q-icon name="check_circle" class="solution-icon" />
+                <q-icon name="rocket_launch" class="solution-icon" />
                 <h3>Solución: Tu Plataforma Profesional</h3>
               </div>
               <ul class="feature-list">
-                <li><q-icon name="check" /> Cero comisiones por venta</li>
-                <li><q-icon name="check" /> Solo tus coches, sin competencia directa</li>
-                <li><q-icon name="check" /> Clientela que valora tu expertise</li>
-                <li><q-icon name="check" /> Construyes tu marca profesional</li>
-                <li><q-icon name="check" /> Control total sobre tu negocio</li>
+                <li>
+                  <q-icon name="check" /> <strong>Clientes cualificados&nbsp;</strong> que buscan
+                  profesionalidad
+                </li>
+                <li>
+                  <q-icon name="check" /> <strong>+80% menos tiempo&nbsp;</strong>gestionando
+                  consultas
+                </li>
+                <li>
+                  <q-icon name="check" /> <strong>Construyes tu marca&nbsp; </strong> y reputación
+                </li>
+                <li><q-icon name="check" /> <strong>Cero comisiones&nbsp;</strong> por venta</li>
+                <li><q-icon name="check" /> <strong>Vendes valor, no precio</strong></li>
+                <li>
+                  <q-icon name="check" /> <strong>Clientes recurrentes&nbsp;</strong> que confían en
+                  ti
+                </li>
               </ul>
+              <div class="solution-footer">
+                <q-icon name="savings" /> <strong>Inversión clara: €1199 + €99/mes</strong>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Pricing Comparison -->
-    <section class="pricing-section">
-      <div class="container">
-        <h2 class="section-title">Inversión Clara vs Costes Ocultos</h2>
-        <div class="row q-col-gutter-xl">
-          <div class="col-12 col-md-6">
-            <div class="pricing-card marketplace">
-              <div class="pricing-header">
-                <h3>Marketplaces Genéricos</h3>
-                <div class="price">"Gratis"*</div>
-              </div>
-              <ul class="pricing-features">
-                <li><q-icon name="euro" /> €200-500/mes en anuncios destacados</li>
-                <li><q-icon name="percent" /> 3-5% comisión por venta</li>
-                <li><q-icon name="schedule" /> 5-10 horas/semana en regateos</li>
-                <li><q-icon name="visibility_off" /> No construyes valor de marca</li>
-                <li><q-icon name="groups" /> Compites con miles</li>
-              </ul>
-              <div class="pricing-note">*Costes reales ocultos</div>
+        <!-- Preguntas que duelen -->
+        <div class="pain-questions">
+          <h3>💡 Reflexiona:</h3>
+          <div class="questions-grid">
+            <div class="question-item">
+              <q-icon name="schedule" />
+              <span>¿Cuánto vale 1 hora de tu tiempo respondiendo "¿Me lo dejas más barato?"</span>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="pricing-card professional">
-              <div class="pricing-header">
-                <h3>Tu Plataforma Profesional</h3>
-                <div class="price">€1199 + €100/mes</div>
-              </div>
-              <ul class="pricing-features">
-                <li><q-icon name="check" /> Cero comisiones por venta</li>
-                <li><q-icon name="check" /> Clientela cualificada desde día 1</li>
-                <li><q-icon name="check" /> Tu marca, tus reglas</li>
-                <li><q-icon name="check" /> Control total del negocio</li>
-                <li><q-icon name="check" /> Todo incluido</li>
-              </ul>
-              <q-btn label="Comenzar Ahora" color="primary" size="lg" class="full-width" />
+            <div class="question-item">
+              <q-icon name="groups" />
+              <span>¿Qué prefieres: 100 contactos de "mirones" o 5 clientes serios?</span>
+            </div>
+            <div class="question-item">
+              <q-icon name="business" />
+              <span>¿Estás construyendo el valor de Wallapop o el de TU negocio?</span>
+            </div>
+            <div class="question-item">
+              <q-icon name="trending_up" />
+              <span>¿Cuántas ventas pierdes por no tener presencia profesional online?</span>
+            </div>
+            <div class="question-item">
+              <q-icon name="euro" />
+              <span>¿€200-800/mes en anuncios o desde €99/mes en tu plataforma?</span>
+            </div>
+            <div class="question-item">
+              <q-icon name="psychology" />
+              <span>¿Sigues compitiendo por precio o quieres destacar por calidad y servicio?</span>
             </div>
           </div>
         </div>
@@ -130,11 +248,46 @@
       <div class="container">
         <h2 class="section-title">Todo Incluido en tu Inversión</h2>
         <div class="row q-col-gutter-lg">
-          <div class="col-12 col-sm-6 col-md-4" v-for="feature in features" :key="feature.id">
+          <div class="col-12 col-sm-6 col-md-4">
             <div class="feature-card">
-              <q-icon :name="feature.icon" class="feature-icon" />
-              <h4>{{ feature.title }}</h4>
-              <p>{{ feature.description }}</p>
+              <q-icon name="design_services" class="feature-icon" />
+              <h4>Diseño Web Premium</h4>
+              <p>Diseño responsive y profesional que convierte visitantes en clientes</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="feature-card">
+              <q-icon name="admin_panel_settings" class="feature-icon" />
+              <h4>Panel de Administración</h4>
+              <p>Gestiona tu inventario y contactos fácilmente</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="feature-card">
+              <q-icon name="photo_library" class="feature-icon" />
+              <h4>Galería Profesional</h4>
+              <p>Muestra tus coches con fotos de alta calidad</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="feature-card">
+              <q-icon name="support_agent" class="feature-icon" />
+              <h4>Soporte Prioritario</h4>
+              <p>Ayuda técnica cuando la necesites</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="feature-card">
+              <q-icon name="security" class="feature-icon" />
+              <h4>Seguridad y Backup</h4>
+              <p>Tus datos protegidos con backup diario</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="feature-card">
+              <q-icon name="update" class="feature-icon" />
+              <h4>Actualizaciones Incluidas</h4>
+              <p>Mantenemos tu plataforma siempre actualizada</p>
             </div>
           </div>
         </div>
@@ -148,63 +301,24 @@
         <div class="video-container">
           <div class="video-placeholder">
             <q-icon name="play_circle" class="play-icon" />
-            <p>Video demostración de 60 segundos</p>
+            <p>Video demostración</p>
           </div>
         </div>
         <div class="text-center q-mt-xl">
           <q-btn
-            label="Ver Demo Completa"
+            label="Ver Demo en Vivo"
             color="primary"
             size="xl"
-            icon="play_arrow"
             class="cta-button-large"
+            icon="open_in_new"
+            href="https://jtcars.netlify.app/#/home"
+            target="_blank"
           />
         </div>
       </div>
     </section>
   </q-page>
 </template>
-
-<script setup>
-const features = [
-  {
-    id: 1,
-    icon: 'design_services',
-    title: 'Diseño Web Premium',
-    description: 'Diseño responsive y profesional que convierte visitantes en clientes',
-  },
-  {
-    id: 2,
-    icon: 'admin_panel_settings',
-    title: 'Panel de Administración',
-    description: 'Gestiona tu inventario y contactos fácilmente',
-  },
-  {
-    id: 3,
-    icon: 'photo_library',
-    title: 'Galería Profesional',
-    description: 'Muestra tus coches con fotos de alta calidad',
-  },
-  {
-    id: 4,
-    icon: 'support_agent',
-    title: 'Soporte Prioritario',
-    description: 'Ayuda técnica cuando la necesites',
-  },
-  {
-    id: 5,
-    icon: 'security',
-    title: 'Seguridad y Backup',
-    description: 'Tus datos protegidos con backup diario',
-  },
-  {
-    id: 6,
-    icon: 'update',
-    title: 'Actualizaciones Incluidas',
-    description: 'Mantenemos tu plataforma siempre actualizada',
-  },
-]
-</script>
 
 <style scoped lang="scss">
 .landing-page {
@@ -253,14 +367,155 @@ const features = [
     background: linear-gradient(45deg, #ff6b6b, #ff8e53);
     border: none;
   }
+}
 
-  .hero-image {
+/* Nuevo Pricing Tiers Section */
+.pricing-tiers-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+
+  .section-title {
     text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
 
-    .hero-img {
-      max-width: 100%;
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  .section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 3rem;
+  }
+
+  .pricing-tier-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    position: relative;
+    transition: transform 0.3s ease;
+    border: 2px solid #e9ecef;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &.premium {
+      border-color: #3498db;
+      transform: scale(1.05);
+
+      &:hover {
+        transform: scale(1.05) translateY(-5px);
+      }
+    }
+
+    .tier-header {
+      text-align: center;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #f8f9fa;
+
+      .tier-badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+
+        &.entrada {
+          background: linear-gradient(45deg, #ffd700, #ffa500);
+          color: black;
+        }
+
+        &.premium {
+          background: linear-gradient(45deg, #3498db, #2980b9);
+          color: white;
+        }
+
+        &.enterprise {
+          background: linear-gradient(45deg, #9b59b6, #8e44ad);
+          color: white;
+        }
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: #2c3e50;
+      }
+
+      .price {
+        .amount {
+          font-size: 3rem;
+          font-weight: 700;
+          color: #3498db;
+          display: block;
+        }
+
+        .period {
+          font-size: 1.1rem;
+          color: #7f8c8d;
+        }
+      }
+    }
+
+    .tier-features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 2rem;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        color: #2c3e50;
+
+        .q-icon {
+          color: #27ae60;
+          margin-right: 0.8rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .tier-btn {
+      margin-top: auto;
+    }
+
+    .popular-badge {
+      position: absolute;
+      top: -10px;
+      right: 20px;
+      background: #e74c3c;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+  }
+
+  .pricing-footer {
+    text-align: center;
+    margin-top: 3rem;
+
+    .guarantee-badge {
+      display: inline-flex;
+      align-items: center;
+      background: #e8f8f5;
+      color: #27ae60;
+      padding: 1rem 2rem;
+      border-radius: 25px;
+      font-weight: 500;
+
+      .q-icon {
+        margin-right: 0.5rem;
+        font-size: 1.5rem;
+      }
     }
   }
 }
@@ -268,7 +523,7 @@ const features = [
 /* Problem Solution Section */
 .problem-solution-section {
   padding: 80px 0;
-  background: #f8f9fa;
+  background: white;
 
   .section-title {
     text-align: center;
@@ -284,18 +539,23 @@ const features = [
     padding: 2rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     height: 100%;
+    position: relative;
 
     .card-header {
       display: flex;
       align-items: center;
       margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid;
 
       &.problem {
         color: #e74c3c;
+        border-bottom-color: #e74c3c;
       }
 
       &.solution {
         color: #27ae60;
+        border-bottom-color: #27ae60;
       }
 
       .problem-icon,
@@ -307,6 +567,7 @@ const features = [
       h3 {
         margin: 0;
         font-size: 1.5rem;
+        font-weight: 600;
       }
     }
   }
@@ -314,86 +575,95 @@ const features = [
   .feature-list {
     list-style: none;
     padding: 0;
+    margin-bottom: 1.5rem;
 
     li {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 1rem;
       font-size: 1.1rem;
+      line-height: 1.4;
 
       .q-icon {
         margin-right: 0.5rem;
         font-size: 1.2rem;
+        margin-top: 0.2rem;
+        flex-shrink: 0;
       }
-    }
-  }
-}
 
-/* Pricing Section */
-.pricing-section {
-  padding: 80px 0;
-  background: white;
-
-  .section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #2c3e50;
-  }
-
-  .pricing-card {
-    background: white;
-    border-radius: 15px;
-    padding: 2.5rem;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    border: 2px solid transparent;
-
-    &.professional {
-      border-color: #3498db;
-      position: relative;
-      transform: scale(1.05);
-    }
-
-    .pricing-header {
-      text-align: center;
-      margin-bottom: 2rem;
-
-      h3 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+      strong {
         color: #2c3e50;
       }
-
-      .price {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #3498db;
-      }
     }
+  }
 
-    .pricing-features {
-      list-style: none;
-      padding: 0;
-      margin-bottom: 2rem;
+  .problem-footer,
+  .solution-footer {
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
 
-      li {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-        font-size: 1.1rem;
-
-        .q-icon {
-          margin-right: 0.5rem;
-          font-size: 1.2rem;
-        }
-      }
+    .q-icon {
+      margin-right: 0.5rem;
+      font-size: 1.3rem;
     }
+  }
 
-    .pricing-note {
+  .problem-footer {
+    background: #ffeaea;
+    color: #c0392b;
+    border: 1px solid #f5b7b1;
+  }
+
+  .solution-footer {
+    background: #e8f8f5;
+    color: #27ae60;
+    border: 1px solid #a3e4d7;
+  }
+
+  .pain-questions {
+    margin-top: 4rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+    h3 {
       text-align: center;
-      font-style: italic;
-      color: #7f8c8d;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+    }
+
+    .questions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .question-item {
+      display: flex;
+      align-items: flex-start;
+      padding: 1.5rem;
+      background: #f8f9fa;
+      border-radius: 10px;
+      border-left: 4px solid #3498db;
+
+      .q-icon {
+        color: #3498db;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        margin-top: 0.2rem;
+        flex-shrink: 0;
+      }
+
+      span {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        color: #2c3e50;
+      }
     }
   }
 }
@@ -500,8 +770,74 @@ const features = [
     justify-content: center;
   }
 
-  .pricing-card.professional {
+  .pricing-tier-card.premium {
     transform: none !important;
+
+    &:hover {
+      transform: translateY(-5px) !important;
+    }
+  }
+
+  .questions-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .question-item {
+    flex-direction: column;
+    text-align: center;
+
+    .q-icon {
+      margin-right: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .popular-badge {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    margin-bottom: 1rem;
   }
 }
 </style>
+
+<script setup>
+/* const features = [
+  {
+    id: 1,
+    icon: 'design_services',
+    title: 'Diseño Web Premium',
+    description: 'Diseño responsive y profesional que convierte visitantes en clientes',
+  },
+  {
+    id: 2,
+    icon: 'admin_panel_settings',
+    title: 'Panel de Administración',
+    description: 'Gestiona tu inventario y contactos fácilmente',
+  },
+  {
+    id: 3,
+    icon: 'photo_library',
+    title: 'Galería Profesional',
+    description: 'Muestra tus coches con fotos de alta calidad',
+  },
+  {
+    id: 4,
+    icon: 'support_agent',
+    title: 'Soporte Prioritario',
+    description: 'Ayuda técnica cuando la necesites',
+  },
+  {
+    id: 5,
+    icon: 'security',
+    title: 'Seguridad y Backup',
+    description: 'Tus datos protegidos con backup diario',
+  },
+  {
+    id: 6,
+    icon: 'update',
+    title: 'Actualizaciones Incluidas',
+    description: 'Mantenemos tu plataforma siempre actualizada',
+  },
+] */
+</script>
