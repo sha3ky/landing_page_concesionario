@@ -363,10 +363,16 @@
       <div class="container">
         <h2 class="section-title">Mira Nuestra Plataforma en Acción</h2>
         <div class="video-container">
-          <div class="video-placeholder">
-            <q-icon name="play_circle" class="play-icon" />
-            <p>Video demostración</p>
-          </div>
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/k_pzTQtqLmk"
+            title="Demo Concesionario"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="border-radius: 15px"
+          ></iframe>
         </div>
         <div class="text-center q-mt-xl">
           <q-btn
